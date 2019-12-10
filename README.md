@@ -1,30 +1,26 @@
 
-# Bayesian Statistics - Introduction
+# Bayesian Classification - Introduction
 
 ## Introduction
 
-In this section, you'll investigate the Bayesian statistical framework. Bayesian statistics are an alternative perspective to classical Frequentist approaches which you've seen thus far. Bayesian statistics applies reasoning to unknown probabilities in a manner in which the Frequentist approach does not allow. 
+In the last section you learned about Bayesian statistics with plenty of theory and practice of Bayes' theorem itself. You'll now take a look at using Bayes' theorem to perform some classification tasks. Here, you'll see that Bayes' theorem can be applied to multiple variables simultaneously. 
 
 
-## Thomas Bayes
- 
-Bayesian statistics owes its name to the famous mathematician Thomas Bayes. Born (sometime) in the early 1700s, he bucked many academic traditions of his time due to his families religious beliefs. Cambridge and Oxford were known for the most prestigious mathematics of the time, but Bayes was a Presbytarien barring him from these universities which had ties to the Church of England. 
+## Bayes Classification 
 
-## Bayes' theorem
+Naive Bayes algorithms extend Bayes' formula to multiple variables by assuming that these features are independent of one another, which may not be met, (hence its naivety) it can nonetheless provide strong results in scenarios with clean and well normalized datasets. This then allows you to estimate an overall probability by multiplying the conditional probabilities for each of the independent features.
 
-Bayes' theorem is a method for rewriting conditional probabilities. The formula is:
+Bayes' formula extended to multiple features is:  
 
-### $$ P(A|B) = \dfrac{P(B|A)P(A)}{P(B)}$$
+$$ \Large P(y|x_1, x_2, ..., x_n) = \frac{P(y)\prod_{i}^{n}P(x_i|y)}{P(x_1, x_2, ..., x_n)}$$ 
 
-In the following lessons, you'll learn more about two traditional interpretations of this formula. The first provides an intuitive understanding, viewing the numerator as the probability of both A and B occuring:  
 
-### $$ P(A|B) = \dfrac{P(A \cap B)}{P(B)}$$
 
-This should make perfect sense: the probability that A is true, given B is true, is the probability that A and B are both true, divided by the probability that B was true in the first place. 
+## Document Classification
 
-The second interpretation of Bayes theorem leads straight into the Bayesian statistical framework itself, bringing about discussions of priors, likelihoods, and posterior probabilities.
-
+An interesting application of Bayes' theorem is to use _bag of words_ for document classification. A bag of words representation takes a text document and converts it into a word frequency representation. In this section, you'll use bag of words and Naive Bayes to classify YouTube videos into appropriate topics. 
 
 ## Summary
 
-Get ready to jump in! This section provides an exciting introduction to Bayes theorem and Bayesian statistics, further rounding out your statistical toolbox!
+It's time to jump in the wonderful Bayesian world again! This section will help you solidify your understanding of Bayesian stats. 
+
