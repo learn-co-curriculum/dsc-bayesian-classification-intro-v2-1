@@ -3,7 +3,7 @@
 
 ## Introduction
 
-In the last section you learned about Bayesian statistics with plenty of theory and practice of Bayes' theorem itself. You'll now take a look at using Bayes' theorem to perform some classification tasks. Here, you'll see that Bayes' theorem can be applied to multiple variables simultaneously. 
+In an earlier section, you learned about Bayesian statistics with plenty of theory and application of Bayes theorem. You'll now take a look at using Bayes theorem to perform some classification tasks. Here, you'll see that the Bayes theorem can be applied to multiple variables simultaneously. 
 
 
 ## Bayes Classification 
@@ -22,5 +22,5 @@ An interesting application of Bayes' theorem is to use _bag of words_ for docume
 
 ## Summary
 
-It's time to jump in the wonderful Bayesian world again! This section will help you solidify your understanding of Bayesian stats. 
+Over the next few lessons you will learn about another fundamental classification algorithm which has many practical applications. It's time to jump into the wonderful Bayesian world again! This section will help you solidify your understanding of Bayesian stats. 
 
