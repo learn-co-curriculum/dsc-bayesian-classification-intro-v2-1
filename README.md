@@ -12,7 +12,7 @@ Naive Bayes algorithms extend Bayes' formula to multiple variables by assuming t
 
 Bayes' formula extended to multiple features is:  
 
-$$ \Large P(y|x_1, x_2, ..., x_n) = \frac{P(y)\prod_{i}^{n}P(x_i|y)}{P(x_1, x_2, ..., x_n)}$$ 
+ <img src="https://render.githubusercontent.com/render/math?math=\Large P(y|x_1, x_2, ..., x_n) = \frac{P(y)\displaystyle\prod_{i}^{n}P(x_i|y)}{P(x_1, x_2, ..., x_n)}"> 
 
 
 
